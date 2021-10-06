@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Righteous', cursive;
+    background-color:rgb(9, 9, 100);
+
+    color: white;
+}
+
+
+/*Menu principal*/
+
+header{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;}
+.titulo1{
+    float: left;
+    width: 250px;
+    height: 80px;
+}
+.listas{
+    position: relative;
+   float: right;
+}
+li{
+
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+
+    padding-top:40px ;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+/* Menu letras*/
+
+.letras
+{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 40px;
+    width:67%;
+    left: 17%;
+    text-align: center;
+    height: 50px;
+    color: white;
+}.letras li{
+padding: 3px;
+margin-top: 10px;
+} 
+
+
+
+/*animes*/
+
+main{
+    position: relative;
+    width:67% ;
+    background-color: rgb(0, 0, 0);
+    height: 940px;
+    left: 17%;
+
+    top: 70px;
+
+
+
+}
+
+.anilanc {
+padding-top: 40px;
+display: flex;
+top:40px;
+align-items: center;
+justify-content: center;
+transition:transfomr 0.5s ease-in-out;
+transform: translate(100,100) rotate(180);
+
+}
+
+
+.lanc{
+    position: absolute;
+    left: 42%;
+
+}
+footer{
+    color: salmon;
+}
+@media screen and (max-width:980px) {
+    .listas{
+        display: none;
+        
+    }
+
+    header{
+        text-align: justify;
+    }
+
+ 
+    .letras{
+        overflow: auto;
+    }
+    .lanc{
+        position: absolute;
+        margin-left: -30px;
+    
+    }.pop{
+        position: absolute;
+        top: 348px;
+        left:40.7%;
+        margin-left: -40px;
+    
+    }
+}
+form{
+    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color:whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+}
+input{
+    background-color:whitesmoke;
+
+    border: none;
+
+    outline: none;
+}
+form button{
+    background-color: whitesmoke;
+    border: none;
+    color: rgb(9, 9, 100);
+    cursor: pointer;
+}
